@@ -1,0 +1,27 @@
+.color-chip-list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+
+  li {
+    margin-right: 16px;
+  }
+}
+.color-chip {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.ds-btn {
+  width: max-content;
+  height: 32px;
+  padding: 0px 24px;
+  border-radius: 20px;
+  border: none;
+
+  &--primary {
+    background-color: #A9DEF9;
+  }
+}
